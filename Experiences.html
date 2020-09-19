@@ -1,0 +1,330 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <style>
+      .sidenav {
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #B95835;
+        overflow-x: hidden;
+        transition: 1s;
+        padding-top: 100px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 50px;
+        text-align: left;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 700;
+        color: #1E1E24;
+        display: block;
+        transition: 0.3s;
+        padding: 10%;
+      }
+
+      .sidenav a:hover {
+        color: #ffffff;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 40px;
+        margin-left: 50px;
+      }
+
+      #main {
+        transition: margin-left 1s;
+        padding: 16px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      
+      body {
+        background-image:url("b1.png");
+        background-repeat: no-repeat;
+        background-size:100% 30%;
+        height: 150px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: white;
+        animation: fadeInAnimation ease 2s; 
+        animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+      }
+      @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        }  
+       } 
+
+      .h1{
+        font-family: 'Libre Baskerville', serif;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 600;
+        color: #1e1e24;
+        letter-spacing: 5px;
+
+      }
+      .h2{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        text-align: Center;
+        font-weight: 500;
+        color: #1e1e24;
+        line-height: 200%;
+      }
+      .center{
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+        width:40%;
+        min-width: 100px;
+      }
+      .centerpic{
+        display:block;
+        margin-left:auto;
+        margin-right: auto;
+        width:30%;
+        min-width: 100px;
+        margin-top: 20px;
+      }
+
+      .centericons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 500px;
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+      }
+
+
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 5px;
+        border-radius: 70%;
+      }
+
+      .fa:hover {
+          background:#B95835;
+          color: white;
+      }
+
+      .fa-linkedin {
+        background:white;
+        stroke:black;
+        stroke-width:1pt;
+        color: black;
+      }
+      .fa-user-circle-o {
+        background:white;
+        stroke:black;
+        stroke-width:1pt;
+        color: black;
+      }
+      .fa-envelope-open-o {
+        background:white;
+        stroke:black;
+        stroke-width:1pt;
+        color: black;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .column-left {
+        display: block;
+        margin-left:auto;
+
+        flex: 50%;
+        padding-left: 50px;
+        color:black;
+        font-size: 18;
+        line-height:150%;
+
+      }
+      .right-text{
+        color:black;
+        font-size:18;
+        padding-left: 15%;
+        line-height:150%;
+      }
+      .column-right {
+        flex: 50%;
+        color:black;
+        font-size: 18;
+        padding-right: 10%;
+        line-height:150%;
+      }
+
+      .mySlides {
+        display:none;
+      }
+
+      .footer {
+        font-family: 'Libre Baskerville', serif;
+        left: 0;
+        bottom:0;
+        width:100%;
+        letter-spacing: 3px;
+        line-height:170%;
+        text-align: center;
+        color: black;
+      }
+      
+    </style>
+    <title>Chalyn Pai | Home</title>
+  </head>
+
+  <body>
+  </br>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Homepage.html">HOME</a>
+      <a href="Experiences.html">EXPERIENCES</a>
+      <a href="Projects.html">PROJECTS</a>
+      <a href="resume.pdf" target="_blank">RESUME</a>
+    </div>
+    <span style="margin-left:3%;font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+
+  <div id="main">
+    <p class="center">
+      <img src="website logo.png" class="centerpic">
+      <P class= h1> 
+      Experiences
+      </P>
+    </p>
+
+
+
+<div class="row">
+  <div class="column-left" >
+    <img src="adtek.png" style="width:100%;">
+  </div>
+  <div class="column-right" style="background-color:#B95835;height:inherit;color:white">
+  </br>
+    <h2>UI/UX Designer </h2>
+    <p><i>ADTEK Consolidated Sdn Bhd | May 2020 - August 2020</i>
+    </br>
+  </div>
+</div>
+
+</br>
+</br>
+
+<div class="row">
+  <div class="column-left">
+    <div class = "right-text">
+      <h2>Project Control Officer</h2>
+      <p> <i>CGI Inc | Sept 2019 - Dec 2019</i>
+
+      </p>
+    </div>
+  </div>
+  <div class="column-right" style="height:500px">
+    <img src="cgi.jpg" style="width:90%;">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column-left" >
+    <img src="td.png" style="width:100%;">
+  </div>
+  <div class="column-right" style="background-color:#1e1e24;height:inherit;color:white">
+  </br>
+    <h2>Project Coordinator </h2>
+    <p><i>TD Bank Group | Jan 2019 - Apr 2019</i>
+    </br>
+  </div>
+</div>
+
+</br>
+</br>
+
+
+<div class="row">
+  <div class="column-left">
+    <div class = "right-text">
+      <h2>Junior Business Analyst</h2>
+      <p> <i>CBI Health Group | May 2018 - Aug 2018</i>
+
+      </p>
+    </div>
+  </div>
+  <div class="column-right" style="height:500px">
+    <img src="cbi.png" style="width:90%;">
+  </div>
+</div>
+
+    <div class = "footer">
+      <p>
+      <p>Let's continue the conversation</p>
+        <p class="centericons">
+          <a href="https://www.linkedin.com/in/clpai/" class="fa fa-linkedin"></a>
+          <a href="resume.pdf" target="_blank" class="fa fa-user-circle-o"></a>
+          <a href="mailto:clpai@uwaterloo.ca?" class="fa fa-envelope-open-o"></a>
+        </p>
+      developed and designed by yours truly
+      </br> © Chalyn Pai 2020
+    </p>
+    </div>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+      document.getElementById("main").style.marginLeft = "250px";
+
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 9000); // Change image every 2 seconds
+      }
+    </script>
+
+  </body>
+</html>
